@@ -1,0 +1,43 @@
+body {
+  scroll-behavior: smooth;
+  height: 100vh;
+  padding-top: 56px;
+}
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#about {
+  padding-top: 55px;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+.house {
+  height: 100vh;
+}
+section .fas,
+section .fab {
+  color: #000000;
+  font-size: 35px;
+}
+.custom-col {
+  margin-top: 25%;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+}
+
+.progress-bar {
+  background-color: rgb(51, 51, 51);
+}
