@@ -114,14 +114,6 @@
         </div>
       </div>
     </section>
-
-    <style>
-      #about {
-        height: 100vh;
-        margin-bottom: 40%;
-      }
-    
-    </style>
     
    
 <section id="about" class="py-5 mt-5">
@@ -141,11 +133,79 @@
 <style>
   #skills {
     height: 100vh;
-    padding-top: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #skills .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  #skills .card {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  #skills .card i {
+    font-size: 3rem; 
+  }
+
+  #skills .card-title {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  #skills .card-text {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 340px) {
+    #skills {
+      height: auto;
+      padding-bottom: 2rem;
+    }
+
+    #skills .text-center h2 {
+      font-size: 1.75rem;
+    }
+
+    #skills .text-center p {
+      font-size: 1rem; 
+    }
+
+    #skills .card {
+      padding: 1rem; 
+    }
+
+    #skills .card-title {
+      font-size: 1rem; 
+    }
+
+    #skills .card-text {
+      font-size: 0.9rem;
+    }
+
+    #skills .row {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+
+    #skills .col-lg-4 {
+      width: 100%; 
+      margin-bottom: 1rem; 
+    }
+
+    #skills .card i {
+      font-size: 2.5rem; 
+    }
   }
 
 </style>
-
 
 <section id="skills" class="py-4">
   <div class="container">
@@ -178,6 +238,7 @@
       </div>
   </div>
 </section>
+
 
 
 
