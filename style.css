@@ -44,10 +44,54 @@ section .fab {
 
 @media (max-width: 576px) {
   .card i {
-    font-size: 50px; /* Adjust the icon size on mobile */
+    font-size: 50px; 
   }
 
   .card-title {
-    font-size: 1.25rem; /* Adjust title font size */
+    font-size: 1.25rem;
+  }
+}
+
+/* skills  */
+@media (min-width: 341px) and (max-width: 412px) {
+  #skills {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  #skills .text-center h2 {
+    font-size: 2rem;
+  }
+
+  #skills .text-center p {
+    font-size: 1.1rem;
+  }
+
+  #skills .card {
+    padding: 1.5rem;
+  }
+
+  #skills .card-title {
+    font-size: 1.1rem;
+  }
+
+  #skills .card-text {
+    font-size: 0.95rem;
+  }
+
+  #skills .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #skills .col-lg-4 {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+
+  #skills .card i {
+    font-size: 2.7rem;
   }
 }
