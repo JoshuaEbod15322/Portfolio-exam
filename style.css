@@ -42,3 +42,12 @@ section .fab {
   background-color: rgb(51, 51, 51);
 }
 
+@media (max-width: 576px) {
+  .card i {
+    font-size: 50px; /* Adjust the icon size on mobile */
+  }
+
+  .card-title {
+    font-size: 1.25rem; /* Adjust title font size */
+  }
+}
